@@ -8,7 +8,6 @@
   	<link rel="preconnect" href="https://fonts.googleapis.com">
   	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="icon" href="logo.png">
   	<script src="https://kit.fontawesome.com/9639067cfb.js" crossorigin="anonymous"></script>
   <title></title>
 </head>
@@ -17,7 +16,7 @@
        <nav>
          <a href="index.html"><img src="logo.png" alt="logo" height="50" width="50"></a>
          <div class="nav-links" id="navLinks">
-<!--            <i class="fa fa-times" onclick="hideMenu()"></i> -->
+           <i class="fa fa-times" onclick="hideMenu()"></i>
            <ul>
              <li><a href="index.html">HOME</a></li>
              <li><a href="about.html">ABOUT</a></li>
@@ -25,7 +24,7 @@
              <li><a href="">COURSE</a></li>
            </ul>
          </div>
-<!--          <i class="fa fa-bars" onclick="showMenu"></i> -->
+         <i class="fa fa-bars" onclick="showMenu()"></i>
        </nav>
           <h1>About Us</h1>
         </section>
@@ -49,34 +48,15 @@
        <i class="fa fa-youtube-play"></i>
        <i class="fa fa-envelope"></i>
      </div>
-     <p>Made with<i class="fa fa-heart-o"></i> by Biplop Rimal</p>
+     <p>Made with <i class="fa fa-heart-o"></i> by Biplop Rimal © 2022-2023</p>
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu(){
-      navLinks.style.left = "0";
+      navLinks.style.right = "0";
     }
     function hideMenu() {
-      navLinks.style.left = "-200px";
+      navLinks.style.right = "-200px";
     }
   </script>
 </body>
